@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #FEFCF0;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+}
+
+a {
+  color: #666666;
+}
+
+a:hover {
+  color: #333333;
+}
+/* Estilos da barra de navegação */
+.navbar {
+  background-color: #A68A7B; /* Marinho Claro */
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+  background-color: #F2DABD;
+}
+
+.navbar-brand {
+  color: #F2DABD;
+}
+
+.nav-link {
+  color: #F2DABD;
+}
+
+.nav-link:hover {
+  color: #F2DABD;
+}
+
+/* Estilos do formulário de contato */
+form {
+  margin-top: 20px;
+}
+
+.form-group label {
+  color: #666666;
+}
+
+.form-control {
+  border-color: #CCCCCC;
+}
+
+.btn-primary {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+.btn-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+  color: #FFFFFF;
+}
+
+/* Estilos das promoções */
+.card {
+  border: 1px solid #CCCCCC;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #333333;
+}
+
+.card-text {
+  color: #666666;
+}
+
+/* Estilos para o carrossel */
+.carousel-item img {
+  max-height: 400px; /* Defina a altura máxima desejada para as imagens */
+  width: auto;
+  margin: 0 auto; /* Centralizar as imagens horizontalmente */
+}
+
+.card {
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px; /* Ajuste o valor para o tamanho desejado */
+}
+
+.card-text {
+  height: 140px; /* Ajuste o valor para o tamanho desejado */
+  overflow: hidden;
+}
+
+/* Estilos para tornar o carrossel responsivo em telas menores */
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-height: 300px; /* Altura máxima reduzida para telas menores */
+  }
+}
+
+/* Estilos para tornar o carrossel responsivo em telas muito pequenas */
+@media (max-width: 576px) {
+  .carousel-item img {
+    max-height: 200px; /* Altura máxima reduzida para telas muito pequenas */
+  }
+}
